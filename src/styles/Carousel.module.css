@@ -1,0 +1,51 @@
+.testImage{
+  width: 100%;
+  /* max-width: 400px; */
+  height: 300px;
+  position: relative;
+}
+
+.container{
+  display: flex;
+  position: relative;
+  margin: 1rem 0;
+}
+
+.back{
+  align-self: center;
+  background: black;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  height: 30;
+  line-height: 1;
+  text-align: center;
+  width: 30;
+  margin: 0 1rem;
+}
+
+.next{
+  align-self: center;
+  background: black;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  height: 30;
+  line-height: 1;
+  text-align: center;
+  width: 30;
+  margin: 0 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .back {
+ display: none;
+  }
+  .next {
+   display: none;
+  }
+}

@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import styles from '@/styles/Nav.module.css'
+import styles from '@/styles/Carousel.module.css'
 
 const height = 400
 const width = 550
@@ -34,6 +34,7 @@ export default function CarouselImage({index}) {
   <Image 
   src='/ads/ad3.jpeg'
   alt="test"
+ 
   width={width}
   height={height}
 
